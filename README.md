@@ -1,19 +1,15 @@
-Script github'ssh
-=====================
+SSH script
+===========
 
-The best way to connect
-your computer with the github'ssh.
+Don't execute the script (apart if you are me)
+The script may cause unexpected damages to your
+computer.
 
-It's very easy.
+(If you are me, execute this)
 
-Clone this repository
----------------------
-	$ git clone https://github.com/riki319/ssh.git
+```console
 
-And run the script
----------------------
-	$ cd ssh
-	$ chmod 777 script.sh
-	$ ./script.sh
+	$ chmod +x script.sh
+	$ ./script
 
-
+```
