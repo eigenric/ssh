@@ -7,7 +7,10 @@ read xclip
 
 if [ $xclip = 's' ]; then
     sudo apt-get install xclip;
-    if [ $? == '0' ]
+    if [ ! $? -eq '0' ]; then
+        echo "xclip no ha podido instalarse correctamente"
+        xclip='n'
+    fi
 fi
 
 if [ ! -e ~/.ssh ]; then
