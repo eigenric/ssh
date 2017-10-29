@@ -13,7 +13,8 @@ fi
 if [ ! -e ~/.ssh ]; then
     echo "No existe la carpeta ~/.ssh"
     echo "Creando carpeta ~/.ssh ..."
-    mkdir ~/.ssh;
+    mkdir ~/.ssh
+fi
 
 cd ~/.ssh
 
